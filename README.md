@@ -4,13 +4,13 @@ A blog post recommendation engine based on collaborative filtering and content b
 Dataset Details
 There are 3 files.
 
-users.csv Users dataset containing user's details like name, id, gender etc.
+users.csv- Users dataset containing user's details like name, id, gender etc.
 
-posts.csv Post dataset containing posts details like title category etc.
+posts.csv- Post dataset containing posts details like title category etc.
 
-views.csv Views dataset contains the mapping which user views which post(s)
+views.csv- Views dataset contains the mapping which user views which post(s)
 
-Users
+Users:
 
  _id: a unique alphanumeric id of the user (string)
 
@@ -20,7 +20,7 @@ Users
 
  academics: Education of the use (undergraduate | graduate)
 
-Posts
+Posts:
 
  _id: a unique alphanumeric id of the post (string)
 
@@ -30,7 +30,7 @@ Posts
 
  post_type: Type of the post (blog | artwork | skill | project)
 
-Views
+Views:
 
  user_id : a unique alphanumeric id of the user (string)
 
