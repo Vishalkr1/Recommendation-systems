@@ -2,6 +2,7 @@
 A blog post recommendation engine based on collaborative filtering and content based filtering.
 
 Dataset Details
+
 There are 3 files.
 
 users.csv- Users dataset containing user's details like name, id, gender etc.
